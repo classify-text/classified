@@ -5,14 +5,14 @@
 ### lag...
 ## LAG...!!!
 ```python
-git clone https://github.com/classified-text/lag.git
+git clone https://github.com/classify-text/classified
 cd classified
 python classified.py
 
 ```
 Maybe you should use:
 ```python
-git clone https://github.com/classified-text/lag.git
+git clone https://github.com/classify-text/classified
 cd classified
 python3 classified.py
 
